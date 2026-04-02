@@ -1,0 +1,96 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Body layout */
+body {
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;   
+
+  
+
+  background: linear-gradient(to right, #164a41, #4d774e, #9dc88d);
+}
+
+/* Container */
+.login-box {
+  margin: 0px;
+  width: 100%;
+  max-width: 800px;
+  
+  text-align: center;
+  align-items: center;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;                 
+}
+
+/* Typography */
+h1 {
+  font-size: clamp(2.2rem, 6vw, 3.5rem);
+  font-weight: 900;
+}
+
+h2 {
+  font-size: clamp(1.8rem, 5vw, 3rem);
+  font-weight: 800;
+}
+
+h3 {
+  font-size: clamp(1.5rem, 4vw, 2.4rem);
+  font-weight: 700;
+  opacity: 0.9;
+}
+
+p {
+  font-size: clamp(1rem, 1.8vw, 1.2rem);
+  line-height: 1.6;
+  opacity: 0.9;
+}
+
+/* Inputs */
+.login-box input {
+  width: 50%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+
+  background-color: #ffffff;   
+  color: #333;
+}
+
+/* Button */
+.login-box button {
+  width: 50%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+
+  background-color: #f1b24a;   
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Signup text */
+.signup {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+.signup a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+a:hover{
+  color: #f1c57d;
+}
