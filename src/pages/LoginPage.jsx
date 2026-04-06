@@ -1,4 +1,5 @@
 import { useState } from "react";
+import '../assets/cssfiles/LoginPage.css';
 
 function LoginPage(){
 
@@ -20,8 +21,8 @@ function LoginPage(){
 
         
 
-        <input type="email" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} /><br />
-        <input type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} /><br />
+        <input type="email" placeholder="Email" value={email} required onChange={(e) => setEmail(e.target.value)} /><br />
+        <input type="password" placeholder="Password" value={password} required onChange={(e) => setPassword(e.target.value)} /><br />
         <button type="submit" onClick={display}>Login</button>
 
 

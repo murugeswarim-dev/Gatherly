@@ -20,19 +20,6 @@ body {
   background: linear-gradient(to right, #164a41, #4d774e, #9dc88d);
 }
 
-/* Container */
-.login-box {
-  margin: 0px;
-  width: 100%;
-  max-width: 800px;
-  
-  text-align: center;
-  align-items: center;
-
-  display: flex;
-  flex-direction: column;
-  gap: 10px;                 
-}
 
 /* Typography */
 h1 {
@@ -55,42 +42,4 @@ p {
   font-size: clamp(1rem, 1.8vw, 1.2rem);
   line-height: 1.6;
   opacity: 0.9;
-}
-
-/* Inputs */
-.login-box input {
-  width: 50%;
-  padding: 12px;
-  border-radius: 8px;
-  border: none;
-
-  background-color: #ffffff;   
-  color: #333;
-}
-
-/* Button */
-.login-box button {
-  width: 50%;
-  padding: 12px;
-  border-radius: 8px;
-  border: none;
-
-  background-color: #f1b24a;   
-  color: #fff;
-  cursor: pointer;
-}
-
-/* Signup text */
-.signup {
-  font-size: 0.9rem;
-  opacity: 0.9;
-}
-
-.signup a {
-  color: #fff;
-  text-decoration: underline;
-}
-
-a:hover{
-  color: #f1c57d;
 }
