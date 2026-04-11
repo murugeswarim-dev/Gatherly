@@ -1,0 +1,44 @@
+/* Container */
+.login-signup-box{
+  margin-top: 40px;
+  width: 100%;
+  max-width: 800px;
+  
+  text-align: center;
+  align-items: center;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Inputs */
+.login-signup-box input{
+  margin-top: 2vh;
+  width: 70%;
+  padding: 15px;
+  border-radius: 8px;
+  border: none;
+
+  background-color: #ffffff;   
+  color: #333;
+}
+
+/* Button */
+.login-signup-box button{
+  width: 70%;
+  padding: 15px;
+  border-radius: 8px;
+  border: none;
+
+  background-color: #f1b24a;   
+  color: #fff;
+  cursor: pointer;
+
+  transition: background-color 0.3s ease;
+}
+
+.login-box button:hover{
+  background-color: #f3a830;
+
+}

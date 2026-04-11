@@ -6,10 +6,10 @@ function App() {
  
   return (
     <>
-    {/*<LoginPage/>*/}
-    <SignUpPage/>
+    <LoginPage/>
+    {/*<SignUpPage/>*/}
     </>
   )
-}
+}    
 
 export default App

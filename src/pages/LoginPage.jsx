@@ -29,7 +29,7 @@ function LoginPage(){
         <div className="signup">
 
         <p>Don't have an account?</p>
-        <a  href="">Sign Up</a>
+        <a  href="SignUpPage.jsx">Sign Up</a>
         </div>
 
         </div>
