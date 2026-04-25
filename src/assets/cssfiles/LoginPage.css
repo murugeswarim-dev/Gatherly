@@ -1,68 +1,69 @@
-/* Container */
+.login-title{
+  margin-top: 7vh;
+}
+.login-title h3{
+  margin-top: 3vh;
+}
 .login-box {
-  margin-top: 50px;
+  margin-top: 8vh;
   width: 100%;
-  max-width: 800px;
-  
-  text-align: center;
-  align-items: center;
+  max-width: 400px;
 
   display: flex;
   flex-direction: column;
-  gap: 10px;                 
+  align-items: center;
+  gap: 15px;
+
+  text-align: center;
 }
 
-/* H3 text*/
-.login-box h3{
-  margin-top: 3vh;
-}
 
 /* Inputs */
 .login-box input {
-  margin-top: 4vh;
-  width: 40%;
-  padding: 15px;
+  width: 70%;
+  max-width: 350px;
+
+  margin: 2vh;
+  padding: 12px;
   border-radius: 8px;
   border: none;
 
-  background-color: #ffffff;   
+  background-color: #ffffff;
   color: #333;
 }
 
 /* Button */
 .login-box button {
-  margin-top: 4vh;
-  width: 40%;
-  padding: 15px;
+  width:70%;
+  max-width: 350px;
+
+  margin: 2vh;
+  padding: 12px;
   border-radius: 8px;
   border: none;
 
-  background-color: #f1b24a;   
+  background-color: #f1b24a;
   color: #fff;
   cursor: pointer;
 
-  transition: background-color 0.3s ease;
+  transition: 0.3s;
 }
 
-.login-box button:hover{
+.login-box button:hover {
   background-color: #e49d2c;
-
 }
 
 /* Signup text */
 .signup {
-  margin-top: 2vh;
+  margin: 2vh;
   font-size: 0.9rem;
-  opacity: 0.9;
 }
 
-.signup a {
-  color: #fff;
+.signuplink {
+  color: #f1b24a;
+  text-decoration: none;
+}
+
+.signuplink:hover {
   text-decoration: underline;
-
-  transition: all 0.3s ease;
-}
-
-a:hover{
-  color: #e49d2c;
 }

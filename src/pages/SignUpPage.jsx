@@ -1,37 +1,56 @@
 import { useState } from "react";
-import '../assets/cssfiles/SignUpPage.css'; 
+import '../assets/cssfiles/SignUpPage.css';
 
-function SignUpPage(){
+function SignUpPage() {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [name, setName] = useState("");
 
-    const [email, setEmail] = useState("");
-    const [password, setPassword] = useState("");
-    const [name, setName] = useState("");
-    
-    
-    function display(){
-        console.log(email);
-        console.log(password);
-        console.log(name);
-    }
+  function display() {
+    console.log(name);
+    console.log(email);
+    console.log(password);
+  }
 
+  return (
+    <>
+    <center>
+    <div className="Signup-title">
+    <h1>GATHERLY</h1>
+    <h3>Sign-Up</h3>
+    </div>
 
-    return(
-        <>
-        <center>
-        <div className="login-signup-box">
+    <div className="signup-box">
+      
 
-        <h1>GATHERLY</h1>
-        <h3>Sign-Up</h3>
-        <input type="text" placeholder="Name" value={name} required onChange={(e) => setName(e.target.value)} /><br />
-        <input type="email" placeholder="Email" value={email } required onChange={(e) => setEmail(e.target.value)} /><br />
-        <input type="password" placeholder="Password" value={password} required onChange={(e) => setPassword(e.target.value)} /><br />
-        <button type="submit" onClick={display}>Create an account</button> <br />
-        <p>Join us and start your journey!</p>
+      <input 
+        type="text" 
+        placeholder="Name" 
+        value={name} 
+        onChange={(e) => setName(e.target.value)} 
+      />
 
+      <input 
+        type="email" 
+        placeholder="Email" 
+        value={email} 
+        onChange={(e) => setEmail(e.target.value)} 
+      />
 
-        </div>
-        </center>
-        </>
-    )
+      <input 
+        type="password" 
+        placeholder="Password" 
+        value={password} 
+        onChange={(e) => setPassword(e.target.value)} 
+      />
+
+      <button onClick={display}>Create an account</button>
+
+      <p>Join us and start your journey!</p>
+    </div>
+    </center>
+    </>
+  );
 }
+
 export default SignUpPage;
